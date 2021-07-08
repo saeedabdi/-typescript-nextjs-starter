@@ -1,6 +1,6 @@
-import router from 'next/router';
 import { isEmpty } from '@lib/index';
 import axios, { Method } from 'axios';
+import router from 'next/router';
 
 const client = axios.create({
     baseURL: process.env.API_BASE_URL,
