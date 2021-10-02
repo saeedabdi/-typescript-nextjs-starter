@@ -1,6 +1,72 @@
 @font-face {
-    font-family: IranSans;
+    font-family: DanaBlack;
     font-style: normal;
     font-weight: normal;
-    src: url('../fonts/IranSans.ttf');
+    src: url('/assets/fonts/Dana/Dana-FaNum-Black.ttf');
+}
+@font-face {
+    font-family: DanaBold;
+    font-style: normal;
+    font-weight: normal;
+    src: url('/assets/fonts/Dana/Dana-FaNum-Bold.ttf');
+}
+@font-face {
+    font-family: DanaDemiBold;
+    font-style: normal;
+    font-weight: normal;
+    src: url('/assets/fonts/Dana/Dana-FaNum-DemiBold.ttf');
+}
+@font-face {
+    font-family: DanaExtraBold;
+    font-style: normal;
+    font-weight: normal;
+    src: url('/assets/fonts/Dana/Dana-FaNum-ExtraBold.ttf');
+}
+@font-face {
+    font-family: DanaExtraLight;
+    font-style: normal;
+    font-weight: normal;
+    src: url('/assets/fonts/Dana/Dana-FaNum-ExtraLight.ttf');
+}
+@font-face {
+    font-family: DanaLight;
+    font-style: normal;
+    font-weight: lighter;
+    src: url('/assets/fonts/Dana/Dana-FaNum-Light.ttf');
+}
+@font-face {
+    font-family: DanaMedium;
+    font-style: normal;
+    font-weight: normal;
+    src: url('/assets/fonts/Dana/Dana-FaNum-Medium.ttf');
+}
+@font-face {
+    font-family: DanaRegular;
+    font-style: normal;
+    font-weight: normal;
+    src: url('/assets/fonts/Dana/Dana-FaNum-Regular.ttf');
+}
+@font-face {
+    font-family: DanaThin;
+    font-style: normal;
+    font-weight: bold;
+    src: url('/assets/fonts/Dana/Dana-FaNum-Thin.ttf');
+}
+@font-face {
+    font-family: DanaUltraBold;
+    font-style: normal;
+    font-weight: bolder;
+    src: url('/assets/fonts/Dana/Dana-FaNum-UltraBold.ttf');
+}
+/* public */
+body {
+    font-family: DanaRegular;
+}
+html {
+    margin: 0;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    line-height: normal;
 }

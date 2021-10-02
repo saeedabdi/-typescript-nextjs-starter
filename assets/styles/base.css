@@ -1,12 +1,60 @@
 @import './typography.css';
 
 :root {
-    font-family: IranSans;
+    font-family: DanaRegular;
+    --primary: #fafafa;
+    --secondary: #000000;
+    --secondary-2: #111;
+    --green: #11a85f;
+    --green-dark: #006633;
+    --red: #ff0000;
+    --red-2: #b31b41;
+    --red-dark: #ba2a02;
+    --orange: #f45304;
+    --orange-dark: #d96716;
+    --red-light: #ff6161;
+    --purple: #f81ce5;
+    --blue: #0070f3;
+    --blue-dark: #006480;
+    --yellow: #fed986;
+    --yellow-dark: #b29700;
+
+    --text-primary: #1a1a1a;
+    --text-secondary: white;
+
+    --accent-0: #fff;
+    --accent-1: #fafafa;
+    --accent-2: #f8f8f8;
+    --accent-3: #f7f7f7;
+    --accent-4: #cccccc;
+    --accent-5: #9f9f9f;
+    --accent-6: #808080;
+    --accent-7: #4d4d4d;
+    --accent-8: #162328;
+    --accent-9: #000;
+
+    --font-sans: -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue', 'Helvetica',
+        sans-serif;
 }
 
 [data-theme='dark'] {
-}
+    --primary: #000000;
+    --secondary-2: #f1f3f5;
 
+    --text-primary: white;
+    --text-secondary: black;
+
+    --accent-9: #fff;
+    --accent-8: #fafafa;
+    --accent-7: #eaeaea;
+    --accent-6: #999999;
+    --accent-5: #888888;
+    --accent-4: #666666;
+    --accent-3: #444444;
+    --accent-2: #333333;
+    --accent-1: #111111;
+    --accent-0: #000;
+}
 *,
 *:before,
 *:after {
